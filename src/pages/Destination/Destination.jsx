@@ -5,7 +5,7 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 const Destination = () => {
     return (
         <div style={{backgroundImage:`url('/images/Rectangle 1.png')` , backgroundSize:'cover'}}>
-            <div className="bg-black bg-opacity-65 min-h-screen w-screen">
+            <div className="bg-black bg-opacity-65 min-h-screen w-full">
                 <div className="mx-auto container">
                     <Navbar from={0}></Navbar>
                     <div className="flex flex-col gap-24 justify-center items-center py-16">
