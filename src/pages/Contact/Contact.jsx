@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Contact = props => {
     return (
         <div>
-            
+            contact
         </div>
     );
 };

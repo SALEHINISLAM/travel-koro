@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/swiper-bundle.css";
 import { Autoplay, Navigation } from "swiper/modules";
 import PropTypes from "prop-types";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { CiCircleChevLeft } from "react-icons/ci";
 import { CiCircleChevRight } from "react-icons/ci";
 import { Link } from "react-router-dom";
@@ -74,6 +74,6 @@ const CarouselHome = ({ places, onRealIndexChange }) => {
 };
 CarouselHome.propTypes = {
   places: PropTypes.array,
-
+  onRealIndexChange:PropTypes.func,
 };
 export default CarouselHome;

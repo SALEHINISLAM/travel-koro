@@ -1,24 +1,29 @@
-import React from "react";
+import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import SearchBox from "../SearchBox/SearchBox";
-
-const Navbar = ({from}) => {
+import { AuthContext } from "../../Providers/AuthProviders";
+import { toast, ToastContainer } from "react-toastify";
+const Navbar = ({ from }) => {
+  const { user, LogOut } = useContext(AuthContext);
+  const handleSignOut = () => {
+    LogOut()
+      .then()
+      .catch((error) => toast.error(error.message));
+  };
   const links = (
     <>
       <li>
-        <NavLink to={`/`}>
-          Home
-        </NavLink>
+        <NavLink to={`/`}>Home</NavLink>
       </li>
       <li>
-        <Link>Destination</Link>
+        <NavLink to={'/destination'}>Destination</NavLink>
       </li>
       <li>
-        <Link>Blog</Link>
+        <NavLink to={'/blog'}>Blog</NavLink>
       </li>
       <li>
-        <Link>Contact</Link>
+        <NavLink to={'/contact'}>Contact</NavLink>
       </li>
     </>
   );
@@ -26,6 +31,7 @@ const Navbar = ({from}) => {
     <div className="flex flex-col w-full text-white">
       <div className="navbar">
         <div className="navbar-start">
+          <ToastContainer />
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -55,17 +61,25 @@ const Navbar = ({from}) => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <div className={`${from==1?'form-control mx-3':'hidden'}`}>
-            <SearchBox/>
+          <div className={`${from == 1 ? "form-control mx-3" : "hidden"}`}>
+            <SearchBox />
           </div>
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-[#F9A51A] text-black hover:bg-white" href="/login">Login</a>
+          <button className="btn bg-[#F9A51A] text-black hover:bg-white">
+            {user ? (
+              <button onClick={()=>handleSignOut()}>Log Out</button>
+            ) : (
+              <a href="/login">
+                Login
+              </a>
+            )}
+          </button>
         </div>
       </div>
       <div className="form-control flex lg:hidden w-full">
-        <SearchBox/>
+        <SearchBox />
       </div>
     </div>
   );

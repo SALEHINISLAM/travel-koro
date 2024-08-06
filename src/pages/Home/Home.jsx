@@ -2,13 +2,10 @@ import { Link, useLoaderData } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Home.css";
 import CarouselHome from "../../components/Carosel/CarouselHome";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import SearchBox from "../../components/SearchBox/SearchBox";
-import CustomSearch from "../../components/CustomSearch/CustomSearch";
 
-
-const Home = (props) => {
+const Home = () => {
   const places = useLoaderData();
   const [currentRealIndex, setCurrentRealIndex] = useState(0);
   const handleRealIndexChange = (index) => {
@@ -30,7 +27,7 @@ const Home = (props) => {
                 {places[currentRealIndex].engagementMessage}
               </h3>
               <Link to={`/place/${currentRealIndex}`}>
-                <button className="text-black btn flex flex-row items-center justify-center bg-[#F9A51A] hover:bg-[#f9a31a89] lg:w-1/2">
+                <button className="text-black btn flex flex-row items-center justify-center bg-[#F9A51A] hover:bg-white lg:w-1/2">
                   Booking
                   <FaArrowRightLong />
                 </button>

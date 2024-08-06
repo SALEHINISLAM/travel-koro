@@ -8,6 +8,7 @@ import Destination from "../pages/Destination/Destination";
 import Blog from "../pages/Blog/Blog";
 import Contact from "../pages/Contact/Contact";
 import Register from "../pages/Register/Register";
+import PrivateRoutes from "./PrivateRoutes";
 
 
 const router=createBrowserRouter([
@@ -18,7 +19,7 @@ const router=createBrowserRouter([
     },
     {
         path:'/place/:id',
-        element:<CarouselDetails/>,
+        element:<PrivateRoutes><CarouselDetails/></PrivateRoutes>,
         loader:()=>fetch('/traveldata.json'),
     },
     {

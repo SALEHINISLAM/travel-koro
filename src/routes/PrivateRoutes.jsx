@@ -14,13 +14,12 @@ const PrivateRoutes = ({children}) => {
     if (user) {
         return children;
     }
-    return (
-        <Navigate to={`/login`} state={location.pathname}/>
-    );
+    return <Navigate to={`/login`} state={{from:location}}/>
+    ;
 };
 
 PrivateRoutes.propTypes = {
-    children: PropTypes.object,
+    children: PropTypes.node,
 };
 
 export default PrivateRoutes;
