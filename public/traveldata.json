@@ -1,0 +1,268 @@
+[
+    {
+        "id": 1,
+        "photo":"/dhaka.jpg",
+        "name": "Dhaka",
+        "engagementMessage": "Welcome to Dhaka, the city of mosques and vibrant people!",
+        "description": "Dhaka, the bustling capital of Bangladesh, is renowned for its rich cultural heritage, with numerous mosques, vibrant markets, and historical landmarks. It offers a unique blend of modernity and tradition, making it an exciting destination for travelers."
+    },
+    {
+        "id": 2,
+        "photo":"/ctg.jpg",
+        "name": "Chittagong",
+        "engagementMessage": "Discover Chittagong, the gateway to the hills and the sea!",
+        "description": "Chittagong, a major coastal city in Bangladesh, is known for its scenic beauty, including the lush green hills of the Chittagong Hill Tracts and the stunning coastline along the Bay of Bengal. It's a perfect spot for adventure and nature lovers."
+    },
+    {
+        "id": 3,
+        "photo":"/sylhet.jpg",
+        "name": "Sylhet",
+        "engagementMessage": "Explore Sylhet, the land of tea gardens and natural beauty!",
+        "description": "Sylhet, located in the northeastern part of Bangladesh, is famous for its picturesque tea gardens, crystal-clear rivers, and stunning landscapes. The region is a haven for nature enthusiasts and offers a serene escape from city life."
+    },
+    {
+        "id": 4,
+        "photo":"/rajshahi.jpg",
+        "name": "Rajshahi",
+        "engagementMessage": "Welcome to Rajshahi, the silk city of mangoes and heritage!",
+        "description": "Rajshahi, often referred to as the Silk City, is renowned for its exquisite mangoes and rich cultural heritage. The city is home to numerous ancient temples, mosques, and silk industries, offering a unique blend of history and agriculture."
+    },
+    {
+        "id": 5,
+        "photo":"/cox.webp",
+        "name": "Cox's Bazar",
+        "engagementMessage": "Visit Cox's Bazar, home to the world's longest natural sea beach!",
+        "description": "Cox's Bazar, located on the southeastern coast of Bangladesh, boasts the world's longest natural sea beach, stretching over 120 kilometers. This popular tourist destination is perfect for beach lovers and offers a range of water sports and relaxation opportunities."
+    },
+    {
+        "id": 6,
+        "photo":"/rangamati.jpg",
+        "name": "Rangamati",
+        "engagementMessage": "Experience Rangamati, the lake city amidst serene hills!",
+        "description": "Rangamati, nestled in the Chittagong Hill Tracts, is known for its stunning Kaptai Lake and lush green hills. The district offers a tranquil environment and is ideal for boating, hiking, and exploring indigenous cultures."
+    },
+    {
+        "id": 7,
+        "photo":"/khulna.jpg",
+        "name": "Khulna",
+        "engagementMessage": "Welcome to Khulna, the gateway to the Sundarbans!",
+        "description": "Khulna is a vibrant city known for its close proximity to the Sundarbans, the largest mangrove forest in the world. The city is a starting point for exploring this UNESCO World Heritage site and its rich biodiversity."
+    },
+    {
+        "id": 8,
+        "photo":"/barisal.jpg",
+        "name": "Barisal",
+        "engagementMessage": "Discover Barisal, the Venice of the East!",
+        "description": "Barisal, located in southern Bangladesh, is often referred to as the 'Venice of the East' due to its numerous rivers and waterways. The city is known for its floating markets, lush countryside, and vibrant culture."
+    },
+    {
+        "id": 9,
+        "photo":"/rangpur.jpg",
+        "name": "Rangpur",
+        "engagementMessage": "Explore Rangpur, a city of history and heritage!",
+        "description": "Rangpur, in northern Bangladesh, is rich in history and cultural heritage. The district is home to several ancient monuments, temples, and palaces, offering a glimpse into the region's storied past."
+    },
+    {
+        "id": 10,
+        "photo":"/mymensingh.webp",
+        "name": "Mymensingh",
+        "engagementMessage": "Welcome to Mymensingh, the city of education and art!",
+        "description": "Mymensingh, known for its prestigious educational institutions and cultural heritage, is a city that values education and the arts. It offers a peaceful environment with a blend of modern amenities and traditional charm."
+    },
+    {
+        "id": 11,
+        "photo":"/comilla.jpg",
+        "name": "Comilla",
+        "engagementMessage": "Visit Comilla, a land of historical significance!",
+        "description": "Comilla is a district rich in historical significance, with ancient archaeological sites, temples, and war cemeteries. The region offers a fascinating journey through Bangladesh's past."
+    },
+    {
+        "id": 12,
+        "photo":"/jessore.webp",
+        "name": "Jessore",
+        "engagementMessage": "Discover Jessore, the land of dates and history!",
+        "description": "Jessore is known for its date palms and historical landmarks. The district offers a blend of natural beauty and cultural heritage, making it a unique destination for travelers."
+    },
+    {
+        "id": 13,
+        "photo":"/narayanganj.jpg",
+        "name": "Narayanganj",
+        "engagementMessage": "Explore Narayanganj, the industrial hub of Bangladesh!",
+        "description": "Narayanganj, located near Dhaka, is an important industrial hub with a rich history in the textile and jute industries. The city offers a mix of industrial significance and cultural heritage."
+    },
+    {
+        "id": 14,
+        "photo":"/gazipur.webp",
+        "name": "Gazipur",
+        "engagementMessage": "Welcome to Gazipur, the city of greenery and industry!",
+        "description": "Gazipur is known for its lush greenery and vibrant industrial sector. The district offers a blend of natural beauty and modern development, making it an interesting destination for travelers."
+    },
+    {
+        "id": 15,
+        "photo":"/bogra.jpg",
+        "name": "Bogra",
+        "engagementMessage": "Discover Bogra, the ancient land of Mahasthangarh!",
+        "description": "Bogra is home to Mahasthangarh, one of the oldest archaeological sites in Bangladesh. The district offers a rich historical and cultural experience, with ancient ruins and traditional crafts."
+    },
+    {
+        "id": 16,
+        "photo":"/djpur.webp",
+        "name": "Dinajpur",
+        "engagementMessage": "Explore Dinajpur, the land of temples and beauty!",
+        "description": "Dinajpur is known for its beautiful Kantajew Temple and lush landscapes. The district offers a serene environment with historical significance and natural beauty."
+    },
+    {
+        "id": 17,
+        "photo":"/pabna.jpg",
+        "name": "Pabna",
+        "engagementMessage": "Welcome to Pabna, the city of rivers and history!",
+        "description": "Pabna is a district known for its rivers and historical landmarks. The region offers a tranquil environment with a rich cultural heritage, making it a perfect destination for travelers."
+    },
+    {
+        "id": 18,
+        "photo":"/faridpur.jpg",
+        "name": "Faridpur",
+        "engagementMessage": "Visit Faridpur, the land of agriculture and culture!",
+        "description": "Faridpur is known for its agricultural richness and cultural heritage. The district offers a peaceful environment with a blend of traditional and modern elements."
+    },
+    {
+        "id": 19,
+        "photo":"/jamalpur.jpg",
+        "name": "Jamalpur",
+        "engagementMessage": "Discover Jamalpur, the gateway to the Garo Hills!",
+        "description": "Jamalpur is a district known for its proximity to the Garo Hills and its agricultural abundance. The region offers a mix of natural beauty and cultural diversity."
+    },
+    {
+        "id": 20,
+        "photo":"/kushtia.webp",
+        "name": "Kushtia",
+        "engagementMessage": "Explore Kushtia, the land of Lalon Shah and Baul culture!",
+        "description": "Kushtia is renowned for its association with Lalon Shah, a legendary mystic poet and Baul singer. The district offers a rich cultural experience with its music, festivals, and historical sites."
+    },
+    {
+        "id": 21,
+        "photo":"/tangail.jpeg",
+        "name": "Tangail",
+        "engagementMessage": "Welcome to Tangail, the land of weavers and rivers!",
+        "description": "Tangail is famous for its traditional handloom sarees and picturesque rivers. The district offers a blend of cultural heritage and natural beauty, making it a unique destination for travelers."
+    },
+    {
+        "id": 22,
+        "photo":"/bagherhat.jpg",
+        "name": "Bagerhat",
+        "engagementMessage": "Visit Bagerhat, the city of mosques and mangroves!",
+        "description": "Bagerhat is a district known for its historic mosques, including the Sixty Dome Mosque, and its proximity to the Sundarbans mangrove forest. The region offers a rich historical and natural experience."
+    },
+    {
+        "id": 23,
+        "photo":"/noakhali.jpg",
+        "name": "Noakhali",
+        "engagementMessage": "Discover Noakhali, the land of rivers and culture!",
+        "description": "Noakhali is a district known for its rivers and cultural heritage. The region offers a serene environment with a blend of traditional and modern elements."
+    },
+    {
+        "id": 24,
+        "photo":"/feni.jpg",
+        "name": "Feni",
+        "engagementMessage": "Explore Feni, the land of rivers and heritage!",
+        "description": "Feni is a district known for its rivers and historical significance. The region offers a mix of natural beauty and cultural heritage, making it an interesting destination for travelers."
+    },
+    {
+        "id": 25,
+        "photo":"/laksipur.webp",
+        "name": "Lakshmipur",
+        "engagementMessage": "Welcome to Lakshmipur, the land of agriculture and rivers!",
+        "description": "Lakshmipur is known for its fertile land and numerous rivers. The district offers a peaceful environment with rich agricultural traditions and scenic beauty."
+    },
+    {
+        "id": 26,
+        "photo":"/chandpur.jpg",
+        "name": "Chandpur",
+        "engagementMessage": "Discover Chandpur, the city of rivers and hilsa!",
+        "description": "Chandpur, located at the confluence of the Padma and Meghna rivers, is famous for its hilsa fish. The district offers beautiful riverine landscapes and a taste of Bangladesh's culinary heritage."
+    },
+    {
+        "id": 27,
+        "photo":"/madaripur.jpg",
+        "name": "Madaripur",
+        "engagementMessage": "Explore Madaripur, the land of rivers and culture!",
+        "description": "Madaripur is a district known for its rivers and rich cultural heritage. The region offers a blend of traditional festivals, historical landmarks, and natural beauty."
+    },
+    {
+        "id": 28,
+        "photo":"/shariatpur.jpeg",
+        "name": "Shariatpur",
+        "engagementMessage": "Welcome to Shariatpur, the land of rivers and tranquility!",
+        "description": "Shariatpur is known for its serene riverine landscapes and peaceful environment. The district offers a relaxing escape with its natural beauty and cultural traditions."
+    },
+    {
+        "id": 29,
+        "photo":"/narsingdi.jpeg",
+        "name": "Narsingdi",
+        "engagementMessage": "Discover Narsingdi, the industrial and agricultural hub!",
+        "description": "Narsingdi is a district known for its industrial growth and rich agricultural lands. The region offers a blend of modern development and traditional rural life."
+    },
+    {
+        "id": 30,
+        "photo":"/manikganj.webp",
+        "name": "Manikganj",
+        "engagementMessage": "Explore Manikganj, the land of rivers and heritage!",
+        "description": "Manikganj is known for its picturesque rivers and historical significance. The district offers a serene environment with a blend of natural beauty and cultural heritage."
+    },
+    {
+        "id": 31,
+        "photo":"/munsigonj.jpg",
+        "name": "Munshiganj",
+        "engagementMessage": "Welcome to Munshiganj, the land of history and rivers!",
+        "description": "Munshiganj is a district rich in historical landmarks and scenic riverine landscapes. The region offers a journey through Bangladesh's past with its ancient ruins and natural beauty."
+    },
+    {
+        "id": 32,
+        "photo":"/netrokona.webp",
+        "name": "Netrakona",
+        "engagementMessage": "Discover Netrakona, the gateway to Haor wetlands!",
+        "description": "Netrakona is known for its stunning Haor wetlands and rich cultural heritage. The district offers a unique natural experience with its vast water bodies and vibrant traditions."
+    },
+    {
+        "id": 33,
+        "photo":"/sherpur.jpg",
+        "name": "Sherpur",
+        "engagementMessage": "Explore Sherpur, the land of hills and forests!",
+        "description": "Sherpur is a district known for its hilly landscapes and dense forests. The region offers a tranquil environment with opportunities for hiking, wildlife exploration, and cultural immersion."
+    },
+    {
+        "id": 34,
+        "photo":"/tangail.jpeg",
+        "name": "Tangail",
+        "engagementMessage": "Welcome to Tangail, the city of handloom sarees and nature!",
+        "description": "Tangail is famous for its traditional handloom sarees and lush natural beauty. The district offers a blend of cultural heritage and picturesque landscapes, making it a unique destination."
+    },
+    {
+        "id": 35,
+        "photo":"/gaibandha.jpg",
+        "name": "Gaibandha",
+        "engagementMessage": "Discover Gaibandha, the land of rivers and greenery!",
+        "description": "Gaibandha is known for its fertile lands and numerous rivers. The district offers a peaceful rural environment with rich agricultural traditions and scenic beauty."
+    },
+    {
+        "id": 36,
+        "photo":"/kurigram.jpg",
+        "name": "Kurigram",
+        "engagementMessage": "Explore Kurigram, the land of rivers and nature!",
+        "description": "Kurigram is a district known for its rivers and natural beauty. The region offers a tranquil environment with opportunities for river cruises, bird watching, and cultural experiences."
+    },
+    {
+        "id": 37,
+        "photo":"/lalmonirhat.jpg",
+        "name": "Lalmonirhat",
+        "engagementMessage": "Welcome to Lalmonirhat, the city of rivers and culture!",
+        "description": "Lalmonirhat is known for its rivers and rich cultural heritage. The district offers a serene environment with a blend of traditional festivals, historical landmarks, and natural beauty."
+    },
+    {
+        "id": 38,
+        "photo":"/nilphamari.jpg",
+        "name": "Nilphamari",
+        "engagementMessage": "Discover Nilphamari, the land of rivers and tranquility!",
+        "description": "Nilphamari is known for its serene riverine landscapes and peaceful environment. The district offers a relaxing escape with its natural beauty and cultural traditions."
+    }
+]
