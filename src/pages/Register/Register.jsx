@@ -1,11 +1,10 @@
-import React, { useContext, useState } from "react";
-import PropTypes from "prop-types";
+import { useContext, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import { AuthContext } from "../../Providers/AuthProviders";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/ReactToastify.css";
 import { FcGoogle } from "react-icons/fc";
-const Register = (props) => {
+const Register = () => {
   const { createUser, signInWithGoogle } = useContext(AuthContext);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
@@ -164,6 +163,5 @@ const Register = (props) => {
   );
 };
 
-Register.propTypes = {};
 
 export default Register;

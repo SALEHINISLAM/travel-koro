@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
-import PropTypes from "prop-types";
+import { useEffect, useRef, useState } from "react";
+
 import "./CustomSuggestion.css";
-const CustomSearch = (props) => {
+const CustomSearch = () => {
   const [query, setQuery] = useState("");
   const [filterSuggestions, setFilterSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -73,6 +73,5 @@ const CustomSearch = (props) => {
   );
 };
 
-CustomSearch.propTypes = {};
 
 export default CustomSearch;

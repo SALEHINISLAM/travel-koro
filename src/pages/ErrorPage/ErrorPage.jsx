@@ -1,7 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 
-const ErrorPage = props => {
+const ErrorPage = () => {
     return (
         <div>
             error
@@ -9,8 +7,6 @@ const ErrorPage = props => {
     );
 };
 
-ErrorPage.propTypes = {
-    
-};
+
 
 export default ErrorPage;

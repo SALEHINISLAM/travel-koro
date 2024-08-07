@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import PropTypes from "prop-types";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import SearchBox from "../SearchBox/SearchBox";
 import { AuthContext } from "../../Providers/AuthProviders";
 import { toast, ToastContainer } from "react-toastify";

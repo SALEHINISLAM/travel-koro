@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import PropTypes from "prop-types";
+import { useContext } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "../Home/Home.css";
 import { AuthContext } from "../../Providers/AuthProviders";
@@ -15,12 +14,6 @@ const Login = () => {
     const form = new FormData(e.currentTarget);
     const email = form.get("email");
     const password = form.get("password");
-    // signIn(email, password)
-    //   .then((res) => {
-    //     console.log(res.user);
-    //     navigate(location.state?.from?.pathname || "/" ,{replace: true});
-    //   })
-    //   .catch((error) => console.log(error));
     try{
       const res=await signIn(email, password);
       console.log(res.user);

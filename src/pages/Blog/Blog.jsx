@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 
 const Blog = () => {
@@ -17,13 +16,13 @@ const Blog = () => {
             <div className="bg-white flex flex-col rounded-2xl pt-10">
               <div className="text-gray-700 flex flex-col justify-center items-center rounded-2xl" >
                 <h3 className="text-2xl font-bold">
-                  Sajek Valley: Bangladesh's Cloud-Kissed Paradise
+                  Sajek Valley: {`Bangladesh's`} Cloud-Kissed Paradise
                 </h3>
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-8 p-4">
                   <img src="/images/Sajek.png" alt="sajek" />
                   <div className="font-medium text-base">
                     <p>
-                      Sajek Valley, often dubbed the "Rooftop of Bangladesh," is
+                      Sajek Valley, often dubbed the {`"Rooftop`} of Bangladesh{`,"`} is
                       a breathtaking natural wonder that has captured the hearts
                       of travelers from around the world. Nestled amidst the
                       lush green hills of Rangamati district, this enchanting
@@ -35,10 +34,10 @@ const Blog = () => {
                     </h4>
                     <p>
                       What sets Sajek apart is its ethereal beauty. Imagine
-                      waking up to a world shrouded in mist, with the sun's rays
+                      waking up to a world shrouded in mist, with the {`sun's`} rays
                       gradually piercing through the clouds, casting a golden
                       hue on the surrounding mountains. As the day unfolds, the
-                      valley reveals its true splendor – rolling hills carpeted
+                      valley reveals its true splendor {'–'} rolling hills carpeted
                       with emerald green, cascading waterfalls, and pristine
                       rivers meandering through the landscape.
                     </p>
@@ -123,6 +122,5 @@ const Blog = () => {
   );
 };
 
-Blog.propTypes = {};
 
 export default Blog;

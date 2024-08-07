@@ -9,9 +9,13 @@ import Blog from "../pages/Blog/Blog";
 import Contact from "../pages/Contact/Contact";
 import Register from "../pages/Register/Register";
 import PrivateRoutes from "./PrivateRoutes";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 
 const router=createBrowserRouter([
+    {
+        errorElement:<ErrorPage/>
+    },
     {
         path:'/',
         element: <Home/>,

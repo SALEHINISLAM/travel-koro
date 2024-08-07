@@ -1,7 +1,4 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-
-const LogOut = props => {
+const LogOut = () => {
     return (
         <div>
             logout
@@ -9,8 +6,5 @@ const LogOut = props => {
     );
 };
 
-LogOut.propTypes = {
-    
-};
 
 export default LogOut;

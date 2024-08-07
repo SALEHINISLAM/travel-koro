@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
-const SearchBox = props => {
+const SearchBox = () => {
     //const places=useLoaderData();
 const [places, setPlaces]=useState([]);
 useEffect(()=>{

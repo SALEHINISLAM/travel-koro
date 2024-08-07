@@ -1,5 +1,3 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Navbar from "../../components/Navbar/Navbar";
 
 const Contact = () => {
@@ -31,6 +29,5 @@ const Contact = () => {
   );
 };
 
-Contact.propTypes = {};
 
 export default Contact;
